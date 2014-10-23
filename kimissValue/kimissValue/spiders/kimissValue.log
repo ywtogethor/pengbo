@@ -1,1 +1,18 @@
 2014-10-23 17:45:13+0800 [scrapy] ERROR: '======================================='
+2014-10-23 18:51:50+0800 [kimissValue] ERROR: Obtaining request from start requests
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1169, in run
+	    self.mainLoop()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1178, in mainLoop
+	    self.runUntilCurrent()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 800, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/lib/pymodules/python2.7/scrapy/utils/reactor.py", line 41, in __call__
+	    return self._func(*self._a, **self._kw)
+	--- <exception caught here> ---
+	  File "/usr/lib/pymodules/python2.7/scrapy/core/engine.py", line 111, in _next_request
+	    request = next(slot.start_requests)
+	  File "/home/kim/repository_my/repository_a/pengbo/kimissValue/kimissValue/spiders/kimissValue_spider.py", line 37, in start_requests
+	    self.urlAll.clear()
+	exceptions.AttributeError: 'list' object has no attribute 'clear'
+	
