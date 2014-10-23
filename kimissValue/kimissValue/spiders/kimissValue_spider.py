@@ -34,7 +34,7 @@ class KimissValueSpider(BaseSpider):
     #construct the request from the start urls
     def start_requests(self):
         while True:
-            self.urlAll.clear()
+            self.urlAll=[]
             conn=httplib.HTTPConnection("182.92.67.121","8888") 
             dest_url="/gettask?spider_name="+self.spider_name+"&spider_type="+self.name
             print dest_url
