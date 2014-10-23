@@ -138,7 +138,7 @@ class KimissValueSpider(BaseSpider):
                 page=result.group(1)
                 list_page=range(2,int(page)+1)
                 for letter in list_page:
-                    url_url_url="http://product.kimiss.com/product/"+str(hea['producy_id'])+"/"+str(letter)+"/"
+                    url_url_url="http://product.kimiss.com/product/"+str(hea['product_id'])+"/"+str(letter)+"/"
                     if url_url_url not in self.urlAll:
                         (self.urlAll).append(url_url_url)
                         yield Request(url_url_url,callback=self.kaka,meta=hea)
