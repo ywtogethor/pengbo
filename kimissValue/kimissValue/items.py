@@ -17,18 +17,23 @@ class TotalItem(Item):
     veryBad=Field()
     bad=Field()
     common=Field()
+    taskId=Field()
 
 class DetailItem(Item):
     productId=Field()
+    commentId=Field()
     hair=Field()
     skin=Field()
     age=Field()
+    taskId=Field()
 
 class ContentItem(Item):
     productId=Field()
-    purchase=Field()
-    time=Field()
-    effect=Field()
-    theme=Field()
+    commentId=Field()
+    buying=Field()
+    comment_time=Field()
+    content=Field()
+    title=Field()
+    taskId=Field()
 
 
