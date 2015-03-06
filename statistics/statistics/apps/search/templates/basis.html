@@ -2,16 +2,20 @@
 <meta http-equiv='content-type' content='html/text;charset=gb2312'/>
 <head>
 <title>日志分析</title>
+{% load static %}
+<link rel="stylesheet" href="{% static "style.css" %}">
+<script type="text/javascript" src="{% static "jquery.min.js" %}"></script>
+<script type="text/javascript" src="{% static "style.js" %}"></script>
 </head>
 <body>
 <div>
   {% block input%}{% endblock %}
 </div>
-<div style='padding-top:10px;clear:both;'>   
-   <div style='height:30px;width:100px;border:1px solid black;float:left;text-align:center;line-height:30px'>关键词</div>
-   <div style='height:30px;width:100px;border:1px solid black;float:left;text-align:center;line-height:30px;'>搜索次数</div>
+<div class='pt1 cb'>   
+   <div class='h3 w10 border fl center lh3'>关键词</div>
+   <div class='h3 w10 border fl center lh3'>搜索次数</div>
 </div>
-<div style='padding-top:10px;clear:both;'>
+<div class='pt1 cb'>
   {% block content%}{% endblock %}
 </div>
 </body>

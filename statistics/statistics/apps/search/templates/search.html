@@ -2,19 +2,19 @@
 
 {% block input %}
  <form>
-   <div style='float:left;height:30px;width:200px;border:1px solid black;text-align:center;'><input type='text' value='{{ time }}'></div>
-   <div style='float:left;height:30px;width:100px;border:1px solid black;text-align:center;'><input type='button' value='查询'></div>
+   <div class='fl border center h3 w20'><input type='text' value='{{ time }}' id='content'></div>
+   <div class='fl border center h3 w10'><input type='button' value='查询' id='button'></div>
  </form>
 {% endblock %}
 
 {% block content %}
  {% for letter in select %}
- <div style='clear:both;'>
-    <div style='float:left;height:50px;width:200px;background-color:yellow;'>
-       {{ letter }}   
+ <div class='cb'>
+    <div class='fl h5 w20 bc_y'>
+       {{ letter.keyword }}   
     </div>
-    <div style='float:left;height:50px;width:200px;background-color:red;'>
-       {{ letter  }}
+    <div class='fl h5 w20 bc_r'>
+       {{ letter.number }}
     </div>
 </div>
  {% endfor %}

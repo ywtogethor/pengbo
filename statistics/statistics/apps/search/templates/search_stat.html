@@ -2,15 +2,15 @@
 
 {% block input %}
   <form>
-    <div style='float:left;height:30px;width:200px;border:1px solid black;text-align:center;'><input type='text' value={{ date }}></div>
-    <div style='float:left;height:30px;width:100px;border:1px solid black;text-align:center;'><input type='button' value='查询'></div>
+    <div class='fl h3 w20 border center'><input type='text' value={{ time }} id='content'></div>
+    <div class='fl h3 w10 border center'><input type='button' value='查询' id='button'></div>
   </form>
 {% endblock %}
 
 {% block content %}
- {% for %}
-    <div style='float:left;height:50px;width:100px;background-color:yellow;'></div>
-    <div style='float:left;height:50px;width:100px;background-color:red;'></div>
+ {% for keyword in select %}
+    <div class='fl h5 w10 bc_y'>{{ keyword.keyword }}</div>
+    <div class='fl h5 w10 bc_r'>{{ keyword.number }}</div>
  {% endfor %}
 {% endblock %}
 

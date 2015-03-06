@@ -7,7 +7,6 @@ import django
 
 def read_log(date):
     keyword_tuple_list =[]
-    
     log_file = "/data/log/dbn-"+date+".log"
     resource=open(log_file)
     content=resource.readline()
@@ -44,21 +43,22 @@ def search_insert(parameter,date):
         num = 0
     
 if __name__=="__main__" :
-    os.environ['DJANGO_SETTINGS_MODULE'] = 'settings' 
+    os.environ['DJANGO_SETTINGS_MODULE'] = sys.argv[2]
     currentdir = os.path.dirname(__file__)
     parrentdir = os.path.dirname(os.path.dirname(currentdir))
     sys.path.append(parrentdir)
 
     from apps.search.models import SearchStat 
     django.setup()
-
-    logger = logging.getLogger("kaka")
-    logger.setLevel(logging.INFO)
-    handler = logging.FileHanlder("/data/log/new.log",'w')
-    formatter =logging.Formatter('%(asctime)s - %(name)s -%(levelname)s -%(message)s')
-    handler.setFormatter(formatter)
-    logger.addHandler(handler)
-   
+   # date = time.strftime('%Y%m%d',time.localtime))
+    read_log(sys.argv[1])
+   # logger = logging.getLogger("kaka")
+   # logger.setLevel(logging.INFO)
+   # handler = logging.FileHanlder("/data/log/new.log",'w')
+   # formatter =logging.Formatter('%(asctime)s - %(name)s -%(levelname)s -%(message)s')
+   # handler.setFormatter(formatter)
+   # logger.addHandler(handler)
+    
 
 
            
