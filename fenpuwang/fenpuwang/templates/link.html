@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content-type="htpp-equiv" type="text/html;charset=gb2312"/>
+{% load static%}
+<link rel='stylesheet' href='{% static 'css/fenpu.css'%}' type='text/css'>
+<link rel='stylesheet' href='{% static 'css/contact.css'%}' type='text/css'>
+<title>联系我们</title>
+</head>
+<body>
+<div class="contact_all div_center">
+<div class="contact_banner_section">
+  <div class="contact_banner">
+    <img src="{% static "image/icon_contact_logo.png" %}" class="float_l">
+    <div class="float_l contact_banner_introduction">联系我们</div>
+  </div>
+</div>
+
+<div class="contact_content_section">
+  <div class="contact_website_wx">
+     <img src="{% static "image/icon_contact_website.png" %}" class="float_l">
+     <div class="float_l contact_website">
+         <div class="contact_website_title">官网</div>
+         <div class="contact_website_url">www.fenpuwang.com</div>
+     </div>
+     <img src="{% static "image/icon_contact_wechat.png" %}" class="float_l">
+     <div class="float_l contact_wx">
+         <div class="contact_wx_title">微信服务号</div>
+         <div class="contact_wx_number">粉扑 (fenpu365)</div>
+     </div>
+  </div>
+  <div class="contact_email_phone">
+       <img src="{% static "image/icon_contact_email.png"%}" class="float_l">
+       <div class="float_l contact_email">
+          <div class="contact_email_title">邮箱</div>
+          <div class="contact_email_number">bd@dabanniu.com</div>
+       </div>
+       <img src="{% static "image/icon_contact_email.png"%}" class="float_l">
+       <div class="float_l contact_phone">
+           <div class="contact_phone_title">电话</div>
+           <div class="contact_phone_number">4000960100</div>
+       </div>
+  </div>
+  <div class="contact_address_section">
+       <img src="{% static "image/icon_contact_address.png"%}" class="float_l">
+       <div class="float_l contact_address">
+          <div class="contact_address_title">地址</div>
+          <div class="contact_address_name">北京市朝阳区望京SOHO塔一B座2605（天津哈雷彗星科技有限公司）</div>
+       </div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>
