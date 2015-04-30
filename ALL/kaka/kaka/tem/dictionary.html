@@ -1,0 +1,19 @@
+{% extends 'basis.html' %}
+
+{% block title%}
+dictionary
+{% endblock %}
+
+{% block body %}
+<div>
+   <div>{{ total.football.c }}</div>
+   <div>{{ total.football.k }}</div>
+   <div>{{ total.football.m }}</div>
+   {% if total %}
+       <div>football</div>
+   {% endif %}
+   {% for  key in total %}
+       <div style='color:red;'>{{ total }}</div>
+   {% endfor %}
+</div>
+{% endblock %}

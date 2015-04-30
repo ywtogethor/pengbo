@@ -1,0 +1,18 @@
+#a{
+ height:300px;
+ width:500px;
+ background-color:orange;
+ float:left;
+}
+#b{
+ height:200px;
+ width:500px;
+ background-color:pink;
+ float:left;
+}
+#c{
+ height:100px;
+ width:500px;
+ background-color:yellow;
+ float:left;
+}

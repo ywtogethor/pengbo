@@ -1,0 +1,67 @@
+@font-face {
+  font-family:SourceHanSansK;
+  src: url('../font/SourceHanSansK.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{font-family:SourceHanSansK;}
+.aaa{font-family:微软雅黑;font-size:30px;}
+.bbb{font-family:宋体;font-size:30px;}
+.ccc{font-family:黑体;font-size:30px;}
+.ddd{font-family:简体中文;font-size:30px;}
+body,img{padding:0px;margin:0px;}
+.float_l{float:left;}
+.float_r{float:right;}
+.div_center{margin:0px auto;}
+.text_center{text-align:center;}
+.relative{position:relative;}
+.absolute{position:absolute;}
+.marg_l_ft{margin-left:52px;}
+.marg_l_so{margin-left:61px;}
+.marg_l_sz{margin-left:60px;}
+.marg_l_ss{margin-left:67px;}
+.marg_l_fz{margin-left:50px;}
+.marg_l_nf{margin-left:94px;}
+.fenpu_banner_section{width:100%;background-color:rgb(255,83,70);height:900px;height:908px;}
+.fenpu_banner{width:465px;margin-right:208px;margin-top:205px;z-index:999;}
+.fenpu_banner_img{margin-top:66px;}
+.fenpu_banner_introduction{margin-top:52px;}
+.fenpu_banner_code{margin-top:15px;font-size:13px;color:rgb(152,62,48);}
+.fenpu_banner_code_img{width:165px;}
+.fenpu_banner_download{margin-left:23px;}
+.fenpu_banner_download_iphone{background-color:rgb(92,28,22);padding-top:18px;padding-bottom:18px;padding-left:25px;border-radius:5px;height:32px;width:245px;}
+.fenpu_banner_download_android{margin-top:28px;background-color:rgb(92,28,22);padding-top:18px;padding-bottom:18px;padding-left:25px;border-radius:5px;height:32px;width:245px;}
+.fenpu_banner_download_style{color:white;font-weight:bold;font-size:26px;margin-left:25px;}
+.fenpu_banner_absolute{width:100%;top:0px;left:0px;}
+.fenpu_banner_absolute_img{margin-right:470px;}
+.fenpu_line{width:1084px;border-bottom:1px solid rgb(219,219,219);}
+.fenpu_topic_section{margin-top:128px;height:478px;}
+.fenpu_topic{width:865px;}
+.fenpu_topic_content{margin-left:95px;margin-top:78px;}
+.fenpu_topic_introduction_section{margin-top:60px;color:rgb(158,158,158);}
+.fenpu_topic_introduction{margin-top:19px;font-size:14px;}
+.fenpu_detail_section{margin-top:128px;height:478px;}
+.fenpu_detail{width:865px;}
+.fenpu_detail_content{margin-left:95px;margin-top:78px;}
+.fenpu_detail_introduction_section{margin-top:60px;color:rgb(158,158,158);}
+.fenpu_detail_introduction{margin-top:19px;font-size:14px;}
+.fenpu_question_section{margin-top:228px;height:478px;}
+.fenpu_question{width:963px;}
+.fenpu_question_content{margin-top:65px;}
+.fenpu_question_introduction_section{margin-top:53px;}
+.fenpu_question_introduction{font-size:13px;color:white;}
+.fenpu_question_absolute{width:100%;left:0px;top:9px;}
+.fenpu_code_section{padding-top:52px;padding-bottom:42px;}
+.fenpu_code_img{margin-top:40px;}
+.fenpu_code_code{margin-top:30px;color:rgb(102,102,102);font-weight:bold;}
+.fenpu_code_support{margin-top:15px;color:rgb(102,102,102);font-weight:bold;}
+.fenpu_bottom_section{background-color:rgb(56,56,56);padding-top:69px;padding-bottom:76px;}
+.fenpu_bottom{height:170px;width:708px;}
+.fenpu_bottom_introduction{margin-left:47px;}
+.fenpu_bottom_wx_show{font-size:28px;color:rgb(255,255,255);}
+.fenpu_bottom_wx_section{margin-top:16px;height:88px;}
+.fenpu_bottom_wx{margin-left:16px;}
+.fenpu_bottom_wx_name{color:rgb(255,255,255);font-size:29px;}
+.fenpu_bottom_wx_num{color:rgb(255,255,255);font-size:21px;margin-top:21px;}
+.fenpu_bottom_wx_description{color:rgb(255,255,255);margin-top:18px;font-size:15px;}

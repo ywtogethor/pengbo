@@ -1,0 +1,18 @@
+{% extends 'basis.html'%}
+ 
+{% block input %}
+   <form>
+     <div class='fl h3 w20 border center'><input type='text' value={{ time }} id='content'></div>
+     <div class='fl h3 w10 border center'><input type='button' value='查询' id='button'></div>
+   </form>
+{% endblock %}
+ 
+{% block content %}
+ {% for keyword in select %}
+   <div class='cb'>
+     <div class='fl h5 w30 bc_y'>{{ keyword.keyword }}</div>
+     <div class='fl h5 w20 bc_r'>{{ keyword.number }}</div>
+   </div>
+ {% endfor %}
+{% endblock %}
+

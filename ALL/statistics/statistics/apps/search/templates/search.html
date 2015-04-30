@@ -1,0 +1,22 @@
+{% extends 'basis.html'%}
+
+{% block input %}
+<form>
+   <div class='fl border center h3 w20'><input type='text' value='{{ time }}' id='content'></div>
+   <div class='fl border center h3 w10'><input type='button' value='查询' id='button'></div>
+</form>
+{% endblock %}
+
+{% block content %}
+  {% for letter in select %}
+  <div class='cb'>
+      <div class='fl h5 w30 bc_y'>
+        {{ letter.keyword }}
+      </div>
+      <div class='fl h5 w20 bc_r'>
+        {{ letter.number }}
+      </div>
+  </div>
+  {% endfor %}
+{% endblock %}
+

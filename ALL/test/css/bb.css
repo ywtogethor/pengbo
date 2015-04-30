@@ -1,0 +1,9 @@
+@font-face {
+  font-family:SourceHanSansK;
+  src: url('../font/SourceHanSansK.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+*{font-family:SourceHanSansK;}
+.big{font-size:30px;}
+
