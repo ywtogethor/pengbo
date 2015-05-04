@@ -1,0 +1,76 @@
+@font-face {
+  font-family:SourceHanSansCN;
+  src:url('../font/SourceHanSansCN.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+*{font-family:微软雅黑;}
+body,img{padding:0px;margin:0px;}
+.float_l{float:left;}
+.float_r{float:right;}
+.div_center{margin:0px auto;}
+.text_center{text-align:center;}
+.relative{position:relative;}
+.absolute{position:absolute;}
+.marg_l_ft{margin-left:52px;}
+.marg_l_so{margin-left:61px;}
+.marg_l_sz{margin-left:60px;}
+.marg_l_ss{margin-left:67px;}
+.marg_l_fz{margin-left:50px;}
+.marg_l_nf{margin-left:94px;}
+.fenpu_banner_section{width:100%;background-color:rgb(255,83,70);height:900px;height:908px;}
+.fenpu_banner{width:465px;margin-right:208px;margin-top:205px;z-index:999;}
+.fenpu_banner_title{color:rgb(255,255,255);font-size:58px;margin-top:66px;}
+.fenpu_banner_description{color:rgb(255,255,255);font-size:30px;margin-top:42px;}
+.fenpu_banner_introduction{margin-top:52px;}
+.fenpu_banner_code{margin-top:15px;font-size:13px;color:rgb(152,62,48);}
+.fenpu_banner_code_img{width:165px;}
+.fenpu_banner_download{margin-left:23px;}
+.fenpu_banner_download_iphone{background-color:rgb(92,28,22);padding-top:18px;padding-bottom:18px;padding-left:25px;border-radius:5px;height:32px;width:245px;}
+.fenpu_banner_download_android{margin-top:28px;background-color:rgb(92,28,22);padding-top:18px;padding-bottom:18px;padding-left:25px;border-radius:5px;height:32px;width:245px;}
+.fenpu_banner_download_style{color:white;font-size:26px;margin-left:25px;line-height:32px;}
+.fenpu_banner_absolute{width:100%;top:0px;left:0px;}
+.fenpu_banner_absolute_img{margin-right:470px;}
+.fenpu_line{width:1084px;border-bottom:1px solid rgb(219,219,219);}
+.fenpu_topic_section{margin-top:128px;height:478px;}
+.fenpu_topic{width:865px;}
+.fenpu_topic_content{margin-left:95px;margin-top:78px;}
+.fenpu_topic_title{color:rgb(255,83,70);font-size:38px;}
+.fenpu_topic_description{color:rgb(119,119,119);font-size:20px;margin-top:25px;}
+.fenpu_topic_introduction_section{margin-top:60px;color:rgb(158,158,158);}
+.fenpu_topic_introduction{margin-top:19px;font-size:14px;}
+.fenpu_detail_section{margin-top:128px;height:478px;}
+.fenpu_detail{width:865px;}
+.fenpu_detail_content{margin-left:95px;margin-top:78px;}
+.fenpu_detail_title{color:rgb(255,83,70);font-size:38px;}
+.fenpu_detail_description{color:rgb(119,119,119);font-size:24px;margin-top:25px;}
+.fenpu_detail_introduction_section{margin-top:60px;color:rgb(158,158,158);}
+.fenpu_detail_introduction{margin-top:19px;font-size:14px;}
+.fenpu_question_section{margin-top:228px;height:478px;}
+.fenpu_question{width:963px;}
+.fenpu_question_content{margin-top:65px;}
+.fenpu_question_title{color:rgb(255,83,70);font-size:38px;}
+.fenpu_question_description{color:rgb(119,119,119);font-size:20px;margin-top:25px;}
+.fenpu_question_introduction_section{margin-top:53px;}
+.fenpu_question_introduction{font-size:13px;color:white;}
+.fenpu_question_absolute{width:100%;left:0px;top:9px;}
+.fenpu_code_section{padding-top:52px;padding-bottom:42px;}
+.fenpu_code_title{color:rgb(255,83,70);font-size:45px;}
+.fenpu_code_img{margin-top:40px;}
+.fenpu_code_code{margin-top:30px;color:rgb(102,102,102);font-weight:bold;}
+.fenpu_code_support{margin-top:15px;color:rgb(102,102,102);font-weight:bold;}
+.fenpu_bottom_section{background-color:rgb(56,56,56);padding-top:90px;padding-bottom:76px;}
+.fenpu_bottom{height:125px;width:650px;}
+.fenpu_bottom_code_img{width:125px;}
+.fenpu_bottom_fenpu_icon{width:52px;}
+.fenpu_bottom_introduction{margin-left:23px;}
+.fenpu_bottom_wx_show{font-size:15px;color:rgb(200,200,200);width:650px;margin:8px auto;}
+.fenpu_bottom_wx_section{height:52px;}
+.fenpu_bottom_wx_name{color:rgb(255,255,255);font-size:29px;margin-left:16px;line-height:52px;}
+.fenpu_bottom_wx_num{color:rgb(255,255,255);font-size:18px;margin-top:7px;}
+.fenpu_bottom_wx_des_one{color:rgb(200,200,200);margin-top:7px;font-size:13px;}
+.fenpu_bottom_wx_des_two{color:rgb(200,200,200);font-size:13px;margin-top:6px;}
+.fenpu_bottom_contact_section{margin-left:105px;}
+.fenpu_bottom_contact{color:rgb(200,200,200);font-size:16px;margin-top:15px;}
+.fenpu_index_one{font-size:14px;color:rgb(200,200,200);margin-top:70px;}
+.fenpu_index_two{font-size:14px;color:rgb(200,200,200);margin-top:11px;}

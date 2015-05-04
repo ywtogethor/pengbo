@@ -1,0 +1,9 @@
+@font-face {
+  font-family:SourceHanSansCN;
+  src: url('../font/SourceHanSansCN.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+*{font-family:SourceHanSansCN;}
+.big{font-size:30px;}
+
