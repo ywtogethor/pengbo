@@ -1,0 +1,94 @@
+2015-04-10 15:31:37+0800 [scrapy] ERROR: '00000000000000000000000000'
+2015-04-10 15:34:58+0800 [tmall_fp_product] ERROR: Obtaining request from start requests
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1169, in run
+	    self.mainLoop()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1178, in mainLoop
+	    self.runUntilCurrent()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 800, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/lib/pymodules/python2.7/scrapy/utils/reactor.py", line 41, in __call__
+	    return self._func(*self._a, **self._kw)
+	--- <exception caught here> ---
+	  File "/usr/lib/pymodules/python2.7/scrapy/core/engine.py", line 106, in _next_request
+	    request = next(slot.start_requests)
+	  File "/home/pengbo/company/scrapy/tmall_fp_product/tmall_fp_product/spiders/tmall_fp_product_spider.py", line 47, in start_requests
+	    response_result = conn.getresponse().read()
+	  File "/usr/lib/python2.7/httplib.py", line 1030, in getresponse
+	    response.begin()
+	  File "/usr/lib/python2.7/httplib.py", line 407, in begin
+	    version, status, reason = self._read_status()
+	  File "/usr/lib/python2.7/httplib.py", line 365, in _read_status
+	    line = self.fp.readline()
+	  File "/usr/lib/python2.7/socket.py", line 430, in readline
+	    data = recv(1)
+	socket.error: [Errno 104] Connection reset by peer
+	
+2015-04-10 15:35:39+0800 [scrapy] ERROR: '00000000000000000000000000'
+2015-04-10 15:35:52+0800 [scrapy] ERROR: '9999999999999999999999999999'
+2015-04-10 15:35:52+0800 [scrapy] ERROR: '9999999999999999999999999999'
+2015-04-10 15:35:52+0800 [scrapy] ERROR: '44444444444444444444444444'
+2015-04-10 15:35:52+0800 [scrapy] ERROR: {'redirect_urls': ['http://hkyuhe.tmall.hk/search.htm', 'http://jump.taobao.com/jump?target=http%3a%2f%2fhkyuhe.tmall.hk%2fsearch.htm%3ftbpm%3d1', 'http://pass.tmall.hk/add?_tb_token_=Ov2Qq5cCl61Z&cookie2=8308798f9208519ba0063bffda88f89f&t=6fb84c7f0410476d32e31070c7b9795d&target=http%3a%2f%2fhkyuhe.tmall.hk%2fsearch.htm%3ftbpm%3d1&pacc=k34YSpdnAld91WKZ5mWexA==&opi=182.92.67.121&tmsc=1428651341930089', 'http://hkyuhe.tmall.hk/search.htm?tbpm=1'], 'redirect_ttl': 16, 'redirect_times': 4, 'depth': 0, 'download_timeout': 180, 'list_url': u'http://hkyuhe.tmall.hk/search.htm', 'taskId': 226709, 'seller_shop_name': '\xe5\x96\xbb\xe8\xb4\xba\xe5\x8c\x96\xe5\xa6\x86\xe5\x93\x81\xe6\xb5\xb7\xe5\xa4\x96\xe4\xb8\x93\xe8\x90\xa5\xe5\xba\x97', 'download_latency': 0.22332501411437988, 'download_slot': 'hkyuhe.tmall.hk'}
+2015-04-10 15:35:52+0800 [scrapy] ERROR: '44444444444444444444444444'
+2015-04-10 15:35:52+0800 [scrapy] ERROR: '44444444444444444444444444'
+2015-04-10 15:35:52+0800 [scrapy] ERROR: {'redirect_urls': ['http://sukistar.tmall.hk/search.htm', 'http://jump.taobao.com/jump?target=http%3a%2f%2fsukistar.tmall.hk%2fsearch.htm%3ftbpm%3d1', 'http://pass.tmall.hk/add?_tb_token_=p5XBVggd5Qhm&cookie2=c07b05a8d537d2ab72751c90723c42b4&t=d2c4cdf600456ea304a8e679b5205821&target=http%3a%2f%2fsukistar.tmall.hk%2fsearch.htm%3ftbpm%3d1&pacc=YnX6nQHuoncUk06vljTS1Q==&opi=182.92.67.121&tmsc=1428651342079033', 'http://sukistar.tmall.hk/search.htm?tbpm=1'], 'redirect_ttl': 16, 'redirect_times': 4, 'depth': 0, 'download_timeout': 180, 'list_url': u'http://sukistar.tmall.hk/search.htm', 'taskId': 226710, 'seller_shop_name': '\xe9\x87\x87\xe5\xa6\x8d\xe5\x9b\xbd\xe9\x99\x85\xe6\xb5\xb7\xe5\xa4\x96\xe6\x97\x97\xe8\x88\xb0\xe5\xba\x97', 'download_latency': 0.21452593803405762, 'download_slot': 'sukistar.tmall.hk'}
+2015-04-10 15:35:52+0800 [scrapy] ERROR: '44444444444444444444444444'
+2015-04-10 15:35:54+0800 [scrapy] ERROR: '9999999999999999999999999999'
+2015-04-10 15:35:54+0800 [scrapy] ERROR: '44444444444444444444444444'
+2015-04-10 15:35:54+0800 [scrapy] ERROR: {'redirect_urls': ['http://qcf69.tmall.hk/search.htm', 'http://jump.taobao.com/jump?target=http%3a%2f%2fqcf69.tmall.hk%2fsearch.htm%3ftbpm%3d1', 'http://pass.tmall.hk/add?cookie2=c07b05a8d537d2ab72751c90723c42b4&_tb_token_=p5XBVggd5Qhm&t=d2c4cdf600456ea304a8e679b5205821&target=http%3a%2f%2fqcf69.tmall.hk%2fsearch.htm%3ftbpm%3d1&pacc=aonWLmtQUURXmcayWBdWqA==&opi=182.92.67.121&tmsc=1428651343459743', 'http://qcf69.tmall.hk/search.htm?tbpm=1'], 'redirect_ttl': 16, 'redirect_times': 4, 'depth': 0, 'download_timeout': 180, 'list_url': u'http://qcf69.tmall.hk/search.htm', 'taskId': 226711, 'seller_shop_name': '\xe5\x8f\xb0\xe5\x8c\x97\xe6\xb5\x85\xe8\x8d\x89\xe9\xa3\x8e\xe6\xb5\xb7\xe5\xa4\x96\xe4\xb8\x93\xe8\x90\xa5\xe5\xba\x97', 'download_latency': 0.21807098388671875, 'download_slot': 'qcf69.tmall.hk'}
+2015-04-10 15:35:54+0800 [scrapy] ERROR: '44444444444444444444444444'
+2015-04-10 15:35:54+0800 [scrapy] ERROR: '9999999999999999999999999999'
+2015-04-10 15:35:54+0800 [scrapy] ERROR: '44444444444444444444444444'
+2015-04-10 15:35:54+0800 [scrapy] ERROR: {'download_timeout': 180, 'redirect_urls': ['http://0.tmall.hk/search.htm'], 'list_url': u'http://0.tmall.hk/search.htm', 'redirect_ttl': 19, 'taskId': 226714, 'redirect_times': 1, 'seller_shop_name': None, 'download_latency': 0.07865214347839355, 'depth': 0, 'download_slot': '0.tmall.hk'}
+2015-04-10 15:35:54+0800 [scrapy] ERROR: '44444444444444444444444444'
+2015-04-10 15:35:54+0800 [tmall_fp_product] ERROR: Spider error processing <GET http://store.taobao.com/shop/noshop.htm> (referer: None)
+	Traceback (most recent call last):
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 800, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/task.py", line 595, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/lib/python2.7/dist-packages/twisted/internet/task.py", line 472, in _oneWorkUnit
+	    result = self._iterator.next()
+	  File "/usr/lib/pymodules/python2.7/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/lib/pymodules/python2.7/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/lib/pymodules/python2.7/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/lib/pymodules/python2.7/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/lib/pymodules/python2.7/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/lib/pymodules/python2.7/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/home/pengbo/company/scrapy/tmall_fp_product/tmall_fp_product/spiders/tmall_fp_product_spider.py", line 211, in get_product_page
+	    list_page_num = list_page_num[0].split("/")[1]
+	exceptions.IndexError: list index out of range
+	
+2015-04-10 15:35:55+0800 [scrapy] ERROR: '9999999999999999999999999999'
+2015-04-10 15:35:55+0800 [scrapy] ERROR: '44444444444444444444444444'
+2015-04-10 15:35:55+0800 [scrapy] ERROR: {'redirect_urls': ['http://better.tmall.hk/search.htm', 'http://jump.taobao.com/jump?target=http%3a%2f%2fbetter.tmall.hk%2fsearch.htm%3ftbpm%3d1', 'http://pass.tmall.hk/add?_tb_token_=tHPqwE3AMiKQ&cookie2=1ef462ff0e987461916f46a707b6bb46&t=2dbdd06ca0711ec25fc8ec06e95e20e2&target=http%3a%2f%2fbetter.tmall.hk%2fsearch.htm%3ftbpm%3d1&pacc=3NFiau3p_vFfvtnszf7o3w==&opi=182.92.67.121&tmsc=1428651344139000', 'http://better.tmall.hk/search.htm?tbpm=1'], 'redirect_ttl': 16, 'redirect_times': 4, 'depth': 0, 'download_timeout': 180, 'list_url': u'http://better.tmall.hk/search.htm', 'taskId': 226713, 'seller_shop_name': '\xe8\x93\x93\xe4\xbd\xb3\xe6\xb5\xb7\xe5\xa4\x96\xe4\xb8\x93\xe8\x90\xa5\xe5\xba\x97', 'download_latency': 0.2655339241027832, 'download_slot': 'better.tmall.hk'}
+2015-04-10 15:35:55+0800 [scrapy] ERROR: '44444444444444444444444444'
+2015-04-10 15:35:55+0800 [scrapy] ERROR: '555555555555555555555'
+2015-04-10 15:35:55+0800 [scrapy] ERROR: {'download_timeout': 180, 'redirect_ttl': 16, 'redirect_times': 4, 'list_url': u'http://qcf69.tmall.hk/search.htm', 'redirect_urls': ['http://qcf69.tmall.hk/search.htm', 'http://jump.taobao.com/jump?target=http%3a%2f%2fqcf69.tmall.hk%2fsearch.htm%3ftbpm%3d1', 'http://pass.tmall.hk/add?cookie2=c07b05a8d537d2ab72751c90723c42b4&_tb_token_=p5XBVggd5Qhm&t=d2c4cdf600456ea304a8e679b5205821&target=http%3a%2f%2fqcf69.tmall.hk%2fsearch.htm%3ftbpm%3d1&pacc=aonWLmtQUURXmcayWBdWqA==&opi=182.92.67.121&tmsc=1428651343459743', 'http://qcf69.tmall.hk/search.htm?tbpm=1'], 'depth': 1, 'taskId': 226711, 'seller_shop_name': '\xe5\x8f\xb0\xe5\x8c\x97\xe6\xb5\x85\xe8\x8d\x89\xe9\xa3\x8e\xe6\xb5\xb7\xe5\xa4\x96\xe4\xb8\x93\xe8\x90\xa5\xe5\xba\x97', 'download_latency': 0.23316502571105957, 'download_slot': 'qcf69.tmall.hk'}
+2015-04-10 15:35:55+0800 [scrapy] ERROR: '555555555555555555555'
+2015-04-10 15:35:57+0800 [scrapy] ERROR: '9999999999999999999999999999'
+2015-04-10 15:35:57+0800 [scrapy] ERROR: '44444444444444444444444444'
+2015-04-10 15:35:57+0800 [scrapy] ERROR: {'redirect_urls': ['http://purplelabel.tmall.hk/search.htm', 'http://jump.taobao.com/jump?target=http%3a%2f%2fpurplelabel.tmall.hk%2fsearch.htm%3ftbpm%3d1', 'http://pass.tmall.hk/add?_tb_token_=ZzRaHSM6Ul3g&cookie2=8714daf32c6f04d562ad6c36554da283&t=efbd03cae314cbfd28b266b583fe17ff&target=http%3a%2f%2fpurplelabel.tmall.hk%2fsearch.htm%3ftbpm%3d1&pacc=3goX7YZceNYOHYFm3UQFtg==&opi=182.92.67.121&tmsc=1428651342607337', 'http://purplelabel.tmall.hk/search.htm?tbpm=1'], 'redirect_ttl': 16, 'redirect_times': 4, 'depth': 0, 'download_timeout': 180, 'list_url': u'http://purplelabel.tmall.hk/search.htm', 'taskId': 226712, 'seller_shop_name': '\xe7\xb4\xab\xe8\x89\xb2\xe6\xa0\x87\xe7\xad\xbe\xe6\xb5\xb7\xe5\xa4\x96\xe4\xb8\x93\xe8\x90\xa5\xe5\xba\x97', 'download_latency': 0.21176600456237793, 'download_slot': 'purplelabel.tmall.hk'}
+2015-04-10 15:35:57+0800 [scrapy] ERROR: '44444444444444444444444444'
+2015-04-10 15:35:59+0800 [scrapy] ERROR: '555555555555555555555'
+2015-04-10 15:35:59+0800 [scrapy] ERROR: {'download_timeout': 180, 'redirect_ttl': 16, 'redirect_times': 4, 'list_url': u'http://qcf69.tmall.hk/search.htm', 'redirect_urls': ['http://qcf69.tmall.hk/search.htm', 'http://jump.taobao.com/jump?target=http%3a%2f%2fqcf69.tmall.hk%2fsearch.htm%3ftbpm%3d1', 'http://pass.tmall.hk/add?cookie2=c07b05a8d537d2ab72751c90723c42b4&_tb_token_=p5XBVggd5Qhm&t=d2c4cdf600456ea304a8e679b5205821&target=http%3a%2f%2fqcf69.tmall.hk%2fsearch.htm%3ftbpm%3d1&pacc=aonWLmtQUURXmcayWBdWqA==&opi=182.92.67.121&tmsc=1428651343459743', 'http://qcf69.tmall.hk/search.htm?tbpm=1'], 'depth': 1, 'taskId': 226711, 'seller_shop_name': '\xe5\x8f\xb0\xe5\x8c\x97\xe6\xb5\x85\xe8\x8d\x89\xe9\xa3\x8e\xe6\xb5\xb7\xe5\xa4\x96\xe4\xb8\x93\xe8\x90\xa5\xe5\xba\x97', 'download_latency': 0.21329712867736816, 'download_slot': 'qcf69.tmall.hk'}
+2015-04-10 15:35:59+0800 [scrapy] ERROR: '555555555555555555555'
+2015-04-10 15:36:03+0800 [scrapy] ERROR: '555555555555555555555'
+2015-04-10 15:36:03+0800 [scrapy] ERROR: {'download_timeout': 180, 'redirect_ttl': 16, 'redirect_times': 4, 'list_url': u'http://sukistar.tmall.hk/search.htm', 'redirect_urls': ['http://sukistar.tmall.hk/search.htm', 'http://jump.taobao.com/jump?target=http%3a%2f%2fsukistar.tmall.hk%2fsearch.htm%3ftbpm%3d1', 'http://pass.tmall.hk/add?_tb_token_=p5XBVggd5Qhm&cookie2=c07b05a8d537d2ab72751c90723c42b4&t=d2c4cdf600456ea304a8e679b5205821&target=http%3a%2f%2fsukistar.tmall.hk%2fsearch.htm%3ftbpm%3d1&pacc=YnX6nQHuoncUk06vljTS1Q==&opi=182.92.67.121&tmsc=1428651342079033', 'http://sukistar.tmall.hk/search.htm?tbpm=1'], 'depth': 1, 'taskId': 226710, 'seller_shop_name': '\xe9\x87\x87\xe5\xa6\x8d\xe5\x9b\xbd\xe9\x99\x85\xe6\xb5\xb7\xe5\xa4\x96\xe6\x97\x97\xe8\x88\xb0\xe5\xba\x97', 'download_latency': 0.23965001106262207, 'download_slot': 'sukistar.tmall.hk'}
+2015-04-10 15:36:03+0800 [scrapy] ERROR: '555555555555555555555'
+2015-04-10 15:36:05+0800 [scrapy] ERROR: '555555555555555555555'
+2015-04-10 15:36:05+0800 [scrapy] ERROR: {'download_timeout': 180, 'redirect_ttl': 16, 'redirect_times': 4, 'list_url': u'http://purplelabel.tmall.hk/search.htm', 'redirect_urls': ['http://purplelabel.tmall.hk/search.htm', 'http://jump.taobao.com/jump?target=http%3a%2f%2fpurplelabel.tmall.hk%2fsearch.htm%3ftbpm%3d1', 'http://pass.tmall.hk/add?_tb_token_=ZzRaHSM6Ul3g&cookie2=8714daf32c6f04d562ad6c36554da283&t=efbd03cae314cbfd28b266b583fe17ff&target=http%3a%2f%2fpurplelabel.tmall.hk%2fsearch.htm%3ftbpm%3d1&pacc=3goX7YZceNYOHYFm3UQFtg==&opi=182.92.67.121&tmsc=1428651342607337', 'http://purplelabel.tmall.hk/search.htm?tbpm=1'], 'depth': 1, 'taskId': 226712, 'seller_shop_name': '\xe7\xb4\xab\xe8\x89\xb2\xe6\xa0\x87\xe7\xad\xbe\xe6\xb5\xb7\xe5\xa4\x96\xe4\xb8\x93\xe8\x90\xa5\xe5\xba\x97', 'download_latency': 0.21726584434509277, 'download_slot': 'purplelabel.tmall.hk'}
+2015-04-10 15:36:05+0800 [scrapy] ERROR: '555555555555555555555'
+2015-04-10 15:36:05+0800 [scrapy] ERROR: '555555555555555555555'
+2015-04-10 15:36:05+0800 [scrapy] ERROR: {'download_timeout': 180, 'redirect_ttl': 16, 'redirect_times': 4, 'list_url': u'http://sukistar.tmall.hk/search.htm', 'redirect_urls': ['http://sukistar.tmall.hk/search.htm', 'http://jump.taobao.com/jump?target=http%3a%2f%2fsukistar.tmall.hk%2fsearch.htm%3ftbpm%3d1', 'http://pass.tmall.hk/add?_tb_token_=p5XBVggd5Qhm&cookie2=c07b05a8d537d2ab72751c90723c42b4&t=d2c4cdf600456ea304a8e679b5205821&target=http%3a%2f%2fsukistar.tmall.hk%2fsearch.htm%3ftbpm%3d1&pacc=YnX6nQHuoncUk06vljTS1Q==&opi=182.92.67.121&tmsc=1428651342079033', 'http://sukistar.tmall.hk/search.htm?tbpm=1'], 'depth': 1, 'taskId': 226710, 'seller_shop_name': '\xe9\x87\x87\xe5\xa6\x8d\xe5\x9b\xbd\xe9\x99\x85\xe6\xb5\xb7\xe5\xa4\x96\xe6\x97\x97\xe8\x88\xb0\xe5\xba\x97', 'download_latency': 0.23210716247558594, 'download_slot': 'sukistar.tmall.hk'}
+2015-04-10 15:36:05+0800 [scrapy] ERROR: '555555555555555555555'
+2015-04-10 15:37:37+0800 [scrapy] ERROR: '555555555555555555555'
+2015-04-10 15:37:37+0800 [scrapy] ERROR: {'download_timeout': 180, 'redirect_ttl': 16, 'redirect_times': 4, 'list_url': u'http://better.tmall.hk/search.htm', 'redirect_urls': ['http://better.tmall.hk/search.htm', 'http://jump.taobao.com/jump?target=http%3a%2f%2fbetter.tmall.hk%2fsearch.htm%3ftbpm%3d1', 'http://pass.tmall.hk/add?_tb_token_=tHPqwE3AMiKQ&cookie2=1ef462ff0e987461916f46a707b6bb46&t=2dbdd06ca0711ec25fc8ec06e95e20e2&target=http%3a%2f%2fbetter.tmall.hk%2fsearch.htm%3ftbpm%3d1&pacc=3NFiau3p_vFfvtnszf7o3w==&opi=182.92.67.121&tmsc=1428651344139000', 'http://better.tmall.hk/search.htm?tbpm=1'], 'depth': 1, 'taskId': 226713, 'seller_shop_name': '\xe8\x93\x93\xe4\xbd\xb3\xe6\xb5\xb7\xe5\xa4\x96\xe4\xb8\x93\xe8\x90\xa5\xe5\xba\x97', 'download_latency': 9.296257972717285, 'download_slot': 'better.tmall.hk'}
+2015-04-10 15:37:37+0800 [scrapy] ERROR: '555555555555555555555'
