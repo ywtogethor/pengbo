@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "spider_task_center.py", line 93, in <module>
+    application.listen(8888)
+  File "/usr/local/lib/python2.7/dist-packages/tornado-4.0.2-py2.7-linux-x86_64.egg/tornado/web.py", line 1691, in listen
+    server.listen(port, address)
+  File "/usr/local/lib/python2.7/dist-packages/tornado-4.0.2-py2.7-linux-x86_64.egg/tornado/tcpserver.py", line 125, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/usr/local/lib/python2.7/dist-packages/tornado-4.0.2-py2.7-linux-x86_64.egg/tornado/netutil.py", line 145, in bind_sockets
+    sock.bind(sockaddr)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use

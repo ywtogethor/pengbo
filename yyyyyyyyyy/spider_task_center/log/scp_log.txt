@@ -1,0 +1,14 @@
+======================start batch scp:2014101512=================
+/usr/local/services/spider_task_center/tools/batch_scp.sh: 13: /usr/local/services/spider_task_center/tools/batch_scp.sh: ./scp.exp: not found
+/usr/local/services/spider_task_center/tools/batch_scp.sh: 13: /usr/local/services/spider_task_center/tools/batch_scp.sh: ./scp.exp: not found
+/usr/local/services/spider_task_center/tools/batch_scp.sh: 13: /usr/local/services/spider_task_center/tools/batch_scp.sh: ./scp.exp: not found
+/usr/local/services/spider_task_center/tools/batch_scp.sh: 13: /usr/local/services/spider_task_center/tools/batch_scp.sh: ./scp.exp: not found
+/usr/local/services/spider_task_center/tools/batch_scp.sh: 13: /usr/local/services/spider_task_center/tools/batch_scp.sh: ./scp.exp: not found
+/usr/local/services/spider_task_center/tools/batch_scp.sh: 13: /usr/local/services/spider_task_center/tools/batch_scp.sh: ./scp.exp: not found
+/usr/local/services/spider_task_center/tools/batch_scp.sh: 13: /usr/local/services/spider_task_center/tools/batch_scp.sh: ./scp.exp: not found
+/usr/local/services/spider_task_center/tools/batch_scp.sh: 13: /usr/local/services/spider_task_center/tools/batch_scp.sh: ./scp.exp: not found
+/usr/local/services/spider_task_center/tools/batch_scp.sh: 13: /usr/local/services/spider_task_center/tools/batch_scp.sh: ./scp.exp: not found
+/usr/local/services/spider_task_center/tools/batch_scp.sh: 13: /usr/local/services/spider_task_center/tools/batch_scp.sh: ./scp.exp: not found
+/usr/local/services/spider_task_center/tools/batch_scp.sh: 13: /usr/local/services/spider_task_center/tools/batch_scp.sh: ./scp.exp: not found
+/usr/local/services/spider_task_center/tools/batch_scp.sh: 13: /usr/local/services/spider_task_center/tools/batch_scp.sh: ./scp.exp: not found
+======================finsh batch scp=================
